@@ -1,0 +1,49 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3404572, 2017-06-09T11:33:42-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: LetterGothicMT-BoldOblique by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/letter-gothic/mt-bold-oblique/
+ * Copyright: Digitized data copyright The Monotype Corporation 1991-1995. All rights reserved. Letter Gothic is a trademark of The Monotype Corporation which may be registered in certain jurisdictions.
+ * 
+ * Webfont: LetterGothicMT-Oblique by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/letter-gothic/mt-oblique/
+ * Copyright: Digitized data copyright The Monotype Corporation 1991-1995. All rights reserved. Letter Gothic is a trademark of The Monotype Corporation which may be registered in certain jurisdictions.
+ * 
+ * Webfont: LetterGothicMT by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/letter-gothic/mt/
+ * Copyright: Digitized data &#x00A9; Agfa Monotype Corporation 1991-2001. All rights reserved. Monotype Letter Gothic is a trademark of Agfa Monotype Corporation and may be registered in certain jurisdictions.
+ * 
+ * Webfont: LetterGothicMT-Bold by Monotype 
+ * URL: https://www.myfonts.com/fonts/mti/letter-gothic/mt-bold/
+ * Copyright: Digitized data copyright (C) 1991-2001 The Monotype Corporation. All rights reserved. Letter Gothic is a trademark of The Monotype Corporation which may be registered in certain jurisdictions.
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3404572
+ * Licensed pageviews: 250,000
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/33f31c");
+
+  
+@font-face {font-family: 'LetterGothicMT-BoldOblique';src:url('webfonts/33F31C_0_unhinted_0.woff2') format('woff2'),url('webfonts/33F31C_0_unhinted_0.woff') format('woff'),url('webfonts/33F31C_0_unhinted_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'LetterGothicMT-Oblique';src:url('webfonts/33F31C_1_unhinted_0.woff2') format('woff2'),url('webfonts/33F31C_1_unhinted_0.woff') format('woff'),url('webfonts/33F31C_1_unhinted_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'LetterGothicMT';src:url('webfonts/33F31C_2_unhinted_0.woff2') format('woff2'),url('webfonts/33F31C_2_unhinted_0.woff') format('woff'),url('webfonts/33F31C_2_unhinted_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'LetterGothicMT-Bold';src:url('webfonts/33F31C_3_unhinted_0.woff2') format('woff2'),url('webfonts/33F31C_3_unhinted_0.woff') format('woff'),url('webfonts/33F31C_3_unhinted_0.ttf') format('truetype');}
+ 
