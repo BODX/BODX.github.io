@@ -1,5 +1,5 @@
 
-
+/*
 @font-face {font-family: 'Academy';font-weight: normal;font-style: normal;src: url('../fonts/academy/353C89_0_0.eot');src: url('../fonts/academy/353C89_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/academy/353C89_0_0.woff2') format('woff2'),url('../fonts/academy/353C89_0_0.woff') format('woff'),url('../fonts/academy/353C89_0_0.ttf') format('truetype'),url('../fonts/academy/353C89_0_0.svg#wf') format('svg');}
 
 
@@ -10,7 +10,7 @@
 
 
 @font-face {font-family: 'Academy';font-weight: bold;font-style: italic;src: url('../fonts/academy/353C89_3_0.eot');src: url('../fonts/academy/353C89_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/academy/353C89_3_0.woff2') format('woff2'),url('../fonts/academy/353C89_3_0.woff') format('woff'),url('../fonts/academy/353C89_3_0.ttf') format('truetype'),url('../fonts/academy/353C89_3_0.svg#wf') format('svg');}
-
+*/
 
 .Academy-normal-normal {
 	font-family: Academy;
