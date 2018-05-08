@@ -1,0 +1,750 @@
+
+
+@font-face {font-family: 'Academy';font-weight: normal;font-style: normal;src: url('../fonts/academy/353C89_0_0.eot');src: url('../fonts/academy/353C89_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/academy/353C89_0_0.woff2') format('woff2'),url('../fonts/academy/353C89_0_0.woff') format('woff'),url('../fonts/academy/353C89_0_0.ttf') format('truetype'),url('../fonts/academy/353C89_0_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'Academy';font-weight: normal;font-style: italic;src: url('../fonts/academy/353C89_1_0.eot');src: url('../fonts/academy/353C89_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/academy/353C89_1_0.woff2') format('woff2'),url('../fonts/academy/353C89_1_0.woff') format('woff'),url('../fonts/academy/353C89_1_0.ttf') format('truetype'),url('../fonts/academy/353C89_1_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'Academy';font-weight: bold;font-style: normal;src: url('../fonts/academy/353C89_2_0.eot');src: url('../fonts/academy/353C89_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/academy/353C89_2_0.woff2') format('woff2'),url('../fonts/academy/353C89_2_0.woff') format('woff'),url('../fonts/academy/353C89_2_0.ttf') format('truetype'),url('../fonts/academy/353C89_2_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'Academy';font-weight: bold;font-style: italic;src: url('../fonts/academy/353C89_3_0.eot');src: url('../fonts/academy/353C89_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/academy/353C89_3_0.woff2') format('woff2'),url('../fonts/academy/353C89_3_0.woff') format('woff'),url('../fonts/academy/353C89_3_0.ttf') format('truetype'),url('../fonts/academy/353C89_3_0.svg#wf') format('svg');}
+
+
+.Academy-normal-normal {
+	font-family: Academy;
+	font-weight: normal;
+}
+.Academy-normal-italic {
+	font-family: Academy;
+	font-weight: normal;
+	font-style: italic;
+}
+.Academy-bold-normal {
+	font-family: Academy;
+	font-weight: bold;
+	font-style: normal;
+}
+.Academy-bold-italic {
+	font-family: Academy;
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {font-family: 'LetterGothic';font-weight: bold;font-style: italic;src: url('../fonts/letter-gothic/353C8A_0_0.eot');src: url('../fonts/letter-gothic/353C8A_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/letter-gothic/353C8A_0_0.woff2') format('woff2'),url('../fonts/letter-gothic/353C8A_0_0.woff') format('woff'),url('../fonts/letter-gothic/353C8A_0_0.ttf') format('truetype'),url('../fonts/letter-gothic/353C8A_0_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'LetterGothic';font-weight: normal;font-style: italic;src: url('../fonts/letter-gothic/353C8A_1_0.eot');src: url('../fonts/letter-gothic/353C8A_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/letter-gothic/353C8A_1_0.woff2') format('woff2'),url('../fonts/letter-gothic/353C8A_1_0.woff') format('woff'),url('../fonts/letter-gothic/353C8A_1_0.ttf') format('truetype'),url('../fonts/letter-gothic/353C8A_1_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'LetterGothic';font-weight: normal;font-style: normal;src: url('../fonts/letter-gothic/353C8A_2_0.eot');src: url('../fonts/letter-gothic/353C8A_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/letter-gothic/353C8A_2_0.woff2') format('woff2'),url('../fonts/letter-gothic/353C8A_2_0.woff') format('woff'),url('../fonts/letter-gothic/353C8A_2_0.ttf') format('truetype'),url('../fonts/letter-gothic/353C8A_2_0.svg#wf') format('svg');}
+
+
+@font-face {font-family: 'LetterGothic';font-weight: bold;font-style: normal;src: url('../fonts/letter-gothic/353C8A_3_0.eot');src: url('../fonts/letter-gothic/353C8A_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/letter-gothic/353C8A_3_0.woff2') format('woff2'),url('../fonts/letter-gothic/353C8A_3_0.woff') format('woff'),url('../fonts/letter-gothic/353C8A_3_0.ttf') format('truetype'),url('../fonts/letter-gothic/353C8A_3_0.svg#wf') format('svg');}
+
+.LetterGothic-bold-italic {
+	font-family: LetterGothic;
+	font-weight: bold;
+	font-style: italic;
+}
+.LetterGothic-normal-italic {
+	font-family: LetterGothic;
+	font-weight: normal;
+	font-style: italic;
+}
+.LetterGothic-normal-normal {
+	font-family: LetterGothic;
+	font-weight: normal;
+	font-style: normal;
+}
+.LetterGothic-bold-normal {
+	font-family: LetterGothic;
+	font-weight: bold;
+	font-style: normal;
+}
+
+/* ++++++++++++ NORMALIZE ++++++++++++++++++++++++++++++ */
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary,p,ul,menu,dir{display:block;margin:0;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:bold;}dfn{font-style:italic;}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em;}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019";}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-0.5em;}sub{bottom:-0.25em;}img{border:0;}svg:not(:root){overflow:hidden;}figure{margin:0;}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}legend{border:0;padding:0;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,select{text-transform:none;}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}button[disabled],html input[disabled]{cursor:default;}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}
+
+
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+
+    CSS Grid by Rachel Andrew
+    https://gridbyexample.com
+
+\* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 20px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+
+@media screen and (min-width: 500px) {
+
+  /* no grid support? */
+
+  .content {
+    width: 77%;
+    margin: 0 auto;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    grid-template-columns: 5fr 1fr;
+  }
+
+   .tadaa .wrapper {
+     margin: 0 auto;
+     grid-template-columns: 9fr 1fr;
+   }
+
+   .idealist .wrapper {
+     margin: 0 auto;
+     grid-template-columns: 1fr;
+   }
+
+   .pub-wrapper {
+     margin: 0 auto;
+     grid-template-columns: 2fr;
+   }
+
+  .header, .footer {
+    grid-column: 1 / -1;
+    /* needed for the floated layout */
+    clear: both;
+  }
+
+}
+
+.wrapper > * {
+  /* needed for the floated layout*/
+  margin-bottom: 10px;
+}
+
+/* We need to set the widths used on floated items back to auto, and remove the bottom margin as when we have grid we have gaps. */
+@supports (display: grid) {
+  .wrapper > * {
+    width: auto;
+    margin: 0;
+  }
+}
+
+
+/*--------------------------------------------------------------
+Typography
+--------------------------------------------------------------*/
+body, html{
+/*	background-color: #00BBEE;/*#2526FF, 0000EE*/
+	font-family: 'LetterGothic', sans-serif;
+	color: #000;/* #1a1a1a */
+	font-size: 1em;
+	font-weight: normal;
+	background-image: -webkit-gradient(;
+		linear,
+		left top,
+		left top,
+		color-stop(0, #7F14E4),
+		color-stop(1, #E41436),
+		color-stop(1, #BC9A57)
+	);
+	background-image: -o-linear-gradient(left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+	background-image: -moz-linear-gradient(left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+	background-image: -webkit-linear-gradient(left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+	background-image: -ms-linear-gradient(left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+	background-image: linear-gradient(to left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+}
+H1, H2, H3, H4, H5, H6 {
+	font-family: 'Academy', serif;
+	font-size: 2em;
+	font-weight: normal;
+}
+H1 {
+	font-size: 3.5em;
+	margin: 0;
+}
+H2 {
+	font-size: 2.5em;
+	display: block;
+	margin: 1.3em 0 0 0;
+	letter-spacing: 0.03em;
+	font-weight: normal;
+}
+p {
+	display: block;
+	margin: 1.5em 0 0 0;
+	font-size: 1.3em;
+}
+a {
+	background-color: transparent;
+	color: #AC199C;
+	text-decoration: none;
+	border: none;
+	padding: 5px 0 2px 0;
+}
+a:active,
+a:hover {
+	outline: 0;
+	color: #1a1a1a;
+	text-decoration: none;
+	background-color: rgba(255, 230, 0, 0.35);
+}
+ul {
+	display: block;
+	list-style: square;
+}
+li {
+	font-size: 1.3em;
+	list-style: disc;
+}
+img {
+	display: block;
+	border: 0;
+	width: 100%;
+	height: auto;
+}
+
+
+
+/*--------------------------------------------------------------
+Custom
+--------------------------------------------------------------*/
+
+.logo {
+	display:block;
+	overflow: hidden;
+	background: url(../img/B0D_logo_black.svg) top left no-repeat;
+	background-size: 200.5px 85px;
+	width: 200.5px;
+	height: 85px;
+	text-indent: -9999px;
+}
+.idealist .logo {
+	background: url(../img/BC_logo_black.svg) top left no-repeat;
+	background-size: 200.5px 85px;
+	width: 200.5px;
+	height: 85px;
+}
+.idealist .logo:hover {
+	background: url(../img/B0D_logo_black.svg) top left no-repeat;
+	background-size: 200.5px 85px;
+	width: 200.5px;
+	height: 85px;
+}
+.highlight {
+    background-color: #FFF6A6;/*rgba(255, 230, 0, 0.35);*/
+    padding: 3px 3px 0 3px;
+    margin: 0 -5px;
+    line-height: 1.3;
+    border-radius: 1px;
+    box-decoration-break: clone;
+}
+.blackbar {
+	cursor: auto;
+	background-image: linear-gradient(180deg, transparent 5%, #000 0px);
+	background-repeat: no-repeat;
+	background-size: 99% 90%;
+	text-decoration: none;
+	transition: background-size 222ms ease-in-out;
+}
+.blackbar:hover, .blackbar:active, .blackbar:focus {
+	background-size: 0 90%;
+	transition: background-size 222ms ease-in-out;
+}
+
+.tadaa .content, .idealist .content {
+	max-width: 850px;
+	padding: 4em 3em;
+  line-height: 1.7;
+  letter-spacing: -0.07em;
+}
+.tadaa .content {
+	background-color: #fff;
+	margin-top: 0;
+	font-size: 1em;
+	padding-bottom: 10em;
+}
+.idealist .content {
+	margin: 0 auto;
+	margin-top: 7em;
+}
+.idealist p{
+	font-size: 1.2em;
+	line-height: 1.6;
+	letter-spacing: -0.05em;
+	text-align: left;
+}
+.pub {
+	max-width: 720px;
+	background-color: #000;
+	color: #3C3F3F;
+	padding: 25px;
+	color: #fff;
+	margin: 5em 0;
+	font-size: 1.3em;
+	float: right;
+}
+.pub .txt {
+	font-family: 'LetterGothic', sans-serif;
+	font-weight: bold;
+	color: #8114E4;
+	letter-spacing: -0.09em;
+	word-spacing: 0em;
+	line-height: 1.8;
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(#FFF7A1, #E41438, #8114E4);
+	    background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.pub a {
+	background-color: transparent;
+	color: #EC0000;
+	text-decoration: none;
+	border-bottom: 1.5px solid rgba(129, 20, 228, 0.95);
+	padding: 5px 0 0 0;
+}
+.pub a:active, .pub a:hover {
+	outline: 0;
+	color: #1a1a1a;
+	text-decoration: none;
+	background-color: rgba(129, 20, 228, 0.15);
+	border-bottom: 1.5px solid #FFF6A6;
+}
+.right {
+	float: right;
+}
+footer {
+	background-color: #000;
+	background: -webkit-linear-gradient(#FFFF1F, #E41438, #8114E4);
+	z-index: 9999;
+	color: rgba(255, 246, 166, 0.85); /* #FFF6A6 #7E3D1F */
+	font-size: 0.3em;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left top,
+		color-stop(0, #7F14E4),
+		color-stop(1, #E41436),
+		color-stop(1, #BC9A57)
+	);
+	background-image: -o-linear-gradient(left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+	background-image: -moz-linear-gradient(left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+	background-image: -webkit-linear-gradient(left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+	background-image: -ms-linear-gradient(left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+	background-image: linear-gradient(to left top, #7F14E4 0%, #E41436 100%, #BC9A57 100%);
+}
+footer .txt {
+	background: -webkit-linear-gradient(#FFFF1F, #E41438, #8114E4);
+	background: -webkit-linear-gradient(#8114E4, #E41438, #BC9B57);
+    background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	padding: 3em 0;
+}
+footer p {
+	max-width: 720px;
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding: 1.5em 1em;
+}
+footer .diggie {
+	font-family: 'Academy', sans-serif;
+	font-size: 2.5em;
+	line-height: 1;
+	text-transform: capitalize;
+	font-weight: bold;
+}
+footer .fettie {
+	font-size: 5em;
+	font-style: italic;
+}
+.loser #monkee {
+    width: 100%;
+    display: inline-block;
+    vertical-align: middle;
+    font: 0/0 serif;
+    text-shadow: none;
+    color: transparent;
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+
+/* +++++++++++ Responsive Footer Image +++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.loser #monkee .inner {
+    padding-top: 60%; /* height/width of image */
+    display: block;
+    height: 0;
+}
+
+/* default screen, non-retina */
+.loser #monkee { background-image: url("..img/B0D_wall_1440.jpg"); }
+
+@media only screen and (max-width: 320px) {
+    /* Small screen, non-retina */
+    .loser #monkee { background-image: url("../img/B0D_wall_2high_mob.jpg"); }
+    .loser #monkee .inner {
+        padding-top: 130.625%;
+    }
+}
+@media
+only screen and (min-resolution: 2dppx) and (max-width: 320px) {
+    /* Small screen, retina */
+    .loser #monkee { background-image: url("../img/B0D_wall_2high_mob.jpg"); }
+    .loser #monkee .inner {
+        padding-top: 130.625%;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, non-retina */
+    .loser #monkee { background-image: url("..img/B0D_wall_2high_mob.jpg"); }
+    .loser #monkee .inner {
+        padding-top: 130.625%;
+    }
+}
+@media
+only screen and (min-resolution: 2dppx) and (min-width: 321px) and (max-width: 538px) {
+    /* Medium screen, retina */
+    .loser #monkee { background-image: url("../img/B0D_wall_2high_mob.jpg"); }
+    .loser #monkee .inner {
+        padding-top: 130.625%;
+    }
+}
+@media
+only screen and (min-resolution: 2dppx) and (min-width: 539px) {
+    /* Large screen, retina */
+    .loser #monkee { background-image: url("../img/B0D_wall_1024.jpg"); }
+    .loser #monkee .inner {
+        padding-top: 60%;
+    }
+}
+
+
+
+
+/* +++++++++++ UTILITIES ++++++++++++++++++++++++++++++++ */
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.hide {
+	display: none;
+}
+.menu {
+	font-size: 17px;
+	text-align: left;
+	position: fixed;
+	left: 2em;
+	top: 10em;
+	z-index: 9900;
+}
+.tadaa .menu {
+	display: none;
+}
+.rotate {
+	-webkit-transform: rotate(-1deg);
+	-moz-transform: rotate(-1deg);
+	-ms-transform: rotate(-1deg);
+	-o-transform: rotate(-1deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0.01);
+}
+
+.menu ul {
+	padding: 0;
+	margin: 0;
+	margin-bottom: 5px;
+	list-style: none;
+	font-size: 1.3em;
+}
+.menu li {
+	font-size: 0.74em;
+	margin-bottom: 0.3em;
+	list-style: none;
+}
+.menu.menu_page div {
+	margin-bottom: 7px;
+}
+
+.menu a {
+    color:  #000;
+    font-weight: 400;
+    margin: 0 20px auto;
+    text-transform: none;
+    text-decoration: none;
+    white-space: nowrap;
+   	cursor: pointer;
+   	border: none;
+   	background-color: transparent;
+   	padding: 5px 0 2px 0;
+}
+
+.menu a.blackbar {
+	transition: background-size 222ms ease-in-out;
+}
+.menu a.blackbar:hover, .menu a.blackbar:active {
+	transition: background-size 222ms ease-in-out;
+}
+.menu a.blackbar.m1 {
+	background-image: linear-gradient(0deg, transparent 0%, #000 0px);
+	background-size: 99% 80%;
+}
+.menu a.blackbar.m1:hover, .menu a.blackbar.m1:active {
+	background-image: linear-gradient(0deg, transparent 0%, #000 0px);
+	background-size: 0 80%;
+}
+.menu a.blackbar.m2 {
+	background-image: linear-gradient(180deg, transparent 10%, #000 0px);
+	background-size: 95% 80%;
+}
+.menu a.blackbar.m2:hover, .menu a.blackbar.m2:active {
+	background-image: linear-gradient(180deg, transparent 10%, #000 0px);
+	background-size: 0 80%;
+}
+.menu a.blackbar.m3 {
+	background-image: linear-gradient(180deg, transparent 20%, #000 0px);
+	background-size: 99% 95%;
+}
+.menu a.blackbar.m3:hover, .menu a.blackbar.m3:active {
+	background-image: linear-gradient(180deg, transparent 20%, #000 0px);
+	background-size: 0 95%;
+}
+.menu a.blackbar.m4 {
+	background-image: linear-gradient(180deg, transparent 30%, #000 0px);
+	background-size: 99% 100%;
+}
+.menu a.blackbar.m4:hover, .menu a.blackbar.m4:active {
+	background-image: linear-gradient(180deg, transparent 30%, #000 0px);
+	background-size: 0 100%;
+}
+/* -- .active menu state v2 -- */
+.menu a.blackbar.active {
+	font-size: 0.97em;
+	background-image: linear-gradient(180deg, transparent 0%, #FFF7A1 0px);
+	background-size: 99% 95%;
+	cursor: auto;
+}
+.menu a.blackbar.active:hover, .menu a.blackbar.active:active {
+	background-image: linear-gradient(180deg, transparent 0%, #FFF7A1 0px);
+	background-size: 99% 95%;
+}
+.menu.menu_page div.activeOFF {
+	margin-bottom: 9px;
+}
+
+.menu a:hover, .menu a:active {
+    color:  #000;
+}
+
+.menu a.selected {
+	color: #000;
+	font-weight: 400;
+	background-size: 0 100%;
+	text-decoration: line-through;
+}
+
+.tilt {
+	-webkit-transform: rotate(1deg);
+	-moz-transform: rotate(1deg);
+	-o-transform: rotate(1deg);
+	-ms-transform: rotate(1deg);
+	transform: rotate(1deg);
+}
+.center{
+	margin: 0 auto;
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+
+    FIX IT
+
+\* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+@media screen and (max-width: 1023px) {
+
+	.wrapper {
+	  margin: 0 auto;
+	  grid-template-columns: 1fr;
+	}
+	.tadaa .wrapper {
+	  margin: 0 auto;
+	  grid-template-columns: 1fr;
+	  padding: 0;
+	}
+	.header, .footer {
+	  grid-column: 1 / -1;
+	  /* needed for the floated layout */
+	  clear: both;
+	}
+	.menu {
+		font-size: 17px;
+		position: absolute;
+		top: 1.3em;
+		left: 5em;
+	}
+	.menu ul {
+		text-align: left;
+	}
+	.menu ul li {
+		display: inline;
+	}
+	.menu ul li.tilt {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+	.menu a {
+		margin: 0 1px auto;
+	}
+	.rotate {
+		-webkit-transform: rotate(0deg);
+		-moz-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+	}
+	.slicknav_menu {
+		display: block;
+	}
+	.tadaa, .idealist {
+		margin: 0 auto;
+		font-size: 0.8em;
+		line-height: 1.75;
+		letter-spacing: -0.05em;
+	}
+	.idealist .content {
+		margin: 0 auto;
+		margin-top: 7em;
+		padding: 0;
+	}
+	.idealist .content > div:first-of-type {
+		padding: 0.5em 1em;
+	}
+	.idealist H2 {
+		font-size: 2em;
+		line-height: 1.3;
+	}
+	.idealist p {
+		font-size: 1.4em;
+		line-height: 1.6;
+	}
+	footer .diggie {
+		font-size: 3em;
+	}
+	footer .fettie {
+		font-size: 4em;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	footer .diggie {
+		font-size: 2.5em;
+	}
+	footer .fettie {
+		font-size: 3em;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.tadaa .content {
+		width: 90%;
+		margin: 5%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.logo {
+		background: url(../img/B0D_logo_black.svg) top left no-repeat;
+		background-size: 158.6px 68px;
+		width: 158.6px;
+		height: 68px;
+		text-indent: -9999px;
+	}
+	.tadaa .content {
+	 	width: 94%;
+	 	float: none;
+	 	margin: 0 auto;
+		margin: 3%;
+	 }
+	.idealist .content .pub {
+		padding: 2em 1em;
+	}
+	footer .diggie {
+		font-size: 2em;
+	}
+	footer .fettie {
+		font-size: 3em;
+		margin: 0;
+	}
+	.pub {
+		margin: 0;
+	}
+	.idealist .content {
+		margin: 0;
+	}
+	.idealist .content > div:first-of-type {
+		padding: 1em 1.5em;
+		margin: 0;
+		width: 100%;
+		display: inline-block;
+	}
+	.idealist .content p {
+		word-wrap: break-word;
+		width: 100%;
+		display: inline-block;
+		font-size: 1.4em;
+		line-height: 1.6;
+	}
+	.idealist H1 {
+		font-size: 4em;
+	}
+	.idealist H2 {
+		font-size: 2.5em;
+		line-height: 1.1;
+	}
+	.spacer{
+		display: block;
+		height: 300vh;
+	}
+}
+
+@media /* for pixel-dense devices */
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-moz-min-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (min-device-pixel-ratio: 2),
+only screen and (min-resolution: 192dpi),
+only screen and (min-resolution: 2dppx) {
+    /* styles for Retina-type displays */
+}
+
+/* +++++++++++++++++++++++++++++++++++++++++++++++++++++ *
+
+    SHENANIGANS
+
+\* +++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+
+.ASSITIERE {
+	background-image: url('../img/ASSITIERE.gif');
+}
+
+.whitey {
+ 	background-color: rgba(255, 255, 255, .99);
+ 	padding: 0.8em!important;
+}
